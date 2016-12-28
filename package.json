@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-es2015",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some of the eslint rules to disable es2015",
   "main": "index.js",
   "scripts": {
