@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-no-es2015",
+  "name": "eslint-plugin-no-es2015",
   "version": "1.0.0",
   "description": "Some of the eslint rules to disable es2015",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NatureFeng/eslint-config-no-es2015.git"
+    "url": "git+https://github.com/NatureFeng/eslint-plugin-no-es2015.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NatureFeng/eslint-config-no-es2015/issues"
+    "url": "https://github.com/NatureFeng/eslint-plugin-no-es2015/issues"
   },
-  "homepage": "https://github.com/NatureFeng/eslint-config-no-es2015#readme"
+  "homepage": "https://github.com/NatureFeng/eslint-plugin-no-es2015#readme"
 }
