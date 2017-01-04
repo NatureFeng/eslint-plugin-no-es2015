@@ -43,15 +43,15 @@ and you can use this plugin like this.
 
 # List of supported rules
 
-* no-es2015/only-var: you cant use let or const
-* no-es2015/no-destructuring-assignment: you cant use destructuring-assignment // var {a} = {a:1};
-* no-es2015/no-destructuring-params: you cant use destructuring-params // function foo([a,b]) {} function bar({a}) {}
-* no-es2015/no-class: you cant use class // class A {}
-* no-es2015/no-default-params: you cant use default params // function(a = 1) {}
-* no-es2015/no-spread-element: you cant use spread element // Math.Max(...[1,2,3])
-* no-es2015/no-rest-params: you cant use rest params // function(...a) {}
-* no-es2015/no-generator-function: you cant use generator params // function*foo() {}
-* no-es2015/no-arrow-func: you cant use arrow function // var a = () => {}
-* no-es2015/no-for-of: you cant use for of statement // for(bar of foo) {}
-* no-es2015/no-import: you cant use import // import {foo} from 'foo';
-* no-es2015/no-template-string: you cant use template string // var a = `i am a template string`;
+* `no-es2015/only-var`: you can't use `let` or `const`.
+* `no-es2015/no-destructuring-assignment`: you can't use destructuring-assignment `var {a} = {a:1};`.
+* `no-es2015/no-destructuring-params`: you can't use destructuring-params `function foo([a,b]) {} function bar({a}) {}`.
+* `no-es2015/no-class`: you can't use class `class A {}`.
+* `no-es2015/no-default-params`: you can't use default params `function(a = 1) {}`.
+* `no-es2015/no-spread-element`: you can't use spread element `Math.Max(...[1,2,3])`.
+* `no-es2015/no-rest-params`: you can't use rest params `function(...a) {}`.
+* `no-es2015/no-generator-function`: you can't use generator params `function*foo() {}`.
+* `no-es2015/no-arrow-func`: you can't use arrow function `var a = () => {}`.
+* `no-es2015/no-for-of`: you can't use for of statement `for(bar of foo) {}`.
+* `no-es2015/no-import`: you can't use import `import {foo} from 'foo'`.
+* `no-es2015/no-template-string`: you can't use template string <code>var a = &#96;i am a template string&#96;</code>.
