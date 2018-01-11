@@ -2,6 +2,7 @@
 
 module.exports = {
   rules: {
+    'no-includes': require('./lib/rules/no-includes'),
     'only-var': require('./lib/rules/only-var'),
     'no-destructuring-assignment': require('./lib/rules/no-destructuring-assignment'),
     'no-destructuring-params': require('./lib/rules/no-destructuring-params'),
