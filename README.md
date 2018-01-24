@@ -31,11 +31,21 @@ and you can use this plugin like this.
 
 ```json
 "rules": {
+    "no-es2015/no-object-computed-properties": 2,
+    "no-es2015/no-object-shorthand-properties": 2,
+    "no-es2015/no-object-shorthand-method": 2,
     "no-es2015/only-var": 2,
+    "no-es2015/no-destructuring-assignment": 2,
+    "no-es2015/no-destructuring-params": 2,
     "no-es2015/no-class": 2,
+    "no-es2015/no-default-params": 2,
+    "no-es2015/no-spread-element": 2,
+    "no-es2015/no-rest-params": 2,
+    "no-es2015/no-generator-function": 2,
     "no-es2015/no-arrow-func": 2,
+    "no-es2015/no-for-of": 2,
     "no-es2015/no-import": 2,
-    "no-es2015/no-template-string": 2
+    "no-es2015/no-template-strin": 2
 }
 ```
 
@@ -55,3 +65,6 @@ and you can use this plugin like this.
 * `no-es2015/no-for-of`: you can't use for of statement `for(bar of foo) {}`.
 * `no-es2015/no-import`: you can't use import `import {foo} from 'foo'`.
 * `no-es2015/no-template-string`: you can't use template string <code>var a = &#96;i am a template string&#96;</code>.
+* `no-object-computed-properties`: you can't use computed-properties `{[foo]: bar}`
+* `no-object-shorthand-properties`: you can't use shorthand-properties `{foo}`
+* `no-object-shorthand-method`: you can't use shorthand-method `{foo() {}}`
