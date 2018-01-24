@@ -3,6 +3,9 @@
 module.exports = {
   rules: {
     'no-includes': require('./lib/rules/no-includes'),
+    'no-object-computed-properties': require('./lib/rules/no-object-computed-properties'),
+    'no-object-shorthand-properties': require('./lib/rules/no-object-shorthand-properties'),
+    'no-object-shorthand-method': require('./lib/rules/no-object-shorthand-method'),
     'only-var': require('./lib/rules/only-var'),
     'no-destructuring-assignment': require('./lib/rules/no-destructuring-assignment'),
     'no-destructuring-params': require('./lib/rules/no-destructuring-params'),
